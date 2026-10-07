@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-paper: #faf9f7;
+  --color-surface: #ffffff;
+  --color-ink: #1c1f1e;
+  --color-muted: #6b6f6d;
+  --color-line: #e4e1da;
+
+  --color-accent: #b7410e;
+  --color-accent-hover: #9a360b;
+  --color-danger: #b5504a;
+  --color-danger-hover: #9c433e;
+
+  --color-status-wishlist: #8c8d89;
+  --color-status-applied: #4a7fb5;
+  --color-status-screening: #7a6fb0;
+  --color-status-interviewing: #c98a3d;
+  --color-status-offer: #2b8c5e;
+  --color-status-rejected: #b5504a;
+  --color-status-withdrawn: #9b9690;
+}
+
+:root {
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --color-paper: #141716;
+    --color-surface: #1d2120;
+    --color-ink: #ecebe7;
+    --color-muted: #9a9e9b;
+    --color-line: #2e3331;
+
+    --color-accent: #c2501c;
+    --color-accent-hover: #d96630;
+    --color-danger: #e0817a;
+    --color-danger-hover: #eb958f;
+
+    --color-status-wishlist: #a3a49f;
+    --color-status-applied: #6a9bd0;
+    --color-status-screening: #968cc9;
+    --color-status-interviewing: #dca356;
+    --color-status-offer: #3fa874;
+    --color-status-rejected: #e0817a;
+    --color-status-withdrawn: #b0aca6;
+  }
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}

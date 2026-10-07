@@ -1,0 +1,17 @@
+{
+  "name": "Job Tracker",
+  "short_name": "Job Tracker",
+  "description": "Track job applications from wishlist to offer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b7410e",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
